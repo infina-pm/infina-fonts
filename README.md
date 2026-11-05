@@ -4,7 +4,7 @@ Web font for Infina, served from this repository through the jsDelivr CDN.
 
 | Family | Based on | Weights | Notes |
 |---|---|---|---|
-| **Infina Sans** | Lexend | 100 – 900 | Letters 2% tighter, numbers unchanged; "infina" joins f–i like the logo |
+| **Infina Sans** | Lexend | 100 – 900 | Lexend letter spacing, word space −2%, lighter Regular, smaller comma; "infina" joins f–i like the logo |
 
 Details are in [`infina-sans/README.md`](infina-sans/README.md).
 
@@ -22,7 +22,7 @@ Then use it in CSS:
 body { font-family: "Infina Sans", system-ui, sans-serif; }
 ```
 
-The letter spacing is built into the font, so leave `letter-spacing` at `0`.
+The word spacing is built into the font, so leave `letter-spacing` and `word-spacing` at `0`.
 
 Optional, to load the font sooner:
 
